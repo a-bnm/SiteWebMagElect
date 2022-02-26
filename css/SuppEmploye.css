@@ -1,0 +1,103 @@
+.main{
+  height:650px;
+}
+
+.options{
+  height:500px;
+  padding-left: 10px;
+}
+
+select,textarea{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+select{
+  height:20px;
+  width:250px;
+  position: absolute;
+  top:30%;
+  left:5%;
+}
+
+textarea{
+  height:150px;
+  width:350px;
+  border-color: black;
+  position: absolute;
+  top:35%;
+  left:5%;
+}
+.reponse{
+  height:200px;
+  width:300px;
+  position: absolute;
+  top:30%;
+  left:37%;
+  background: #6b03fc;
+  border-radius: 10px;
+  padding-left: 10px;
+  color:white;
+}
+
+.reponse img{
+  position: absolute;
+  left:36%;
+  top:25%;
+}
+
+.reponse p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reponse a{
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  top:85%;
+
+}
+
+p.erreur{
+  position: absolute;
+  left:38%;
+}
+
+a.erreur{
+  position: absolute;
+  top:85%;
+  left:38%;
+}
+
+.btn1{
+  width:100px;
+  height:30px;
+  position:absolute;
+  top:65%;
+  left:5%;
+  color:white;
+  background:grey;
+  border-radius: 10px;
+}
+
+.btn1:hover{
+  color:black;
+  background:white;
+}
+
+.btn2{
+  width:100px;
+  height:30px;
+  position:absolute;
+  top:75%;
+  left:5%;
+  color:white;
+  background:grey;
+  border-radius: 10px;
+}
+
+.btn2:hover{
+  color:black;
+  background:white;
+}

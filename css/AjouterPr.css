@@ -1,0 +1,798 @@
+/*marque et modele sont en commun pour tous*/
+
+.main{
+  height:650px;
+}
+
+.formulaire{
+  height:500px;
+}
+
+input,textarea,select{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+input{
+  height:25px;
+  width:170px;
+}
+
+textarea{
+  height:300px;
+  width:300px;
+  border-color: black;
+}
+
+select{
+  height:30px;
+  width:180px;
+}
+
+/*
+------------------------------------------------
+------------------------------------------------
+*/
+/*concernant telephone*/
+.marque{
+  position:absolute;
+  top:15%;
+  left:5%;
+}
+
+.modele{
+  position:absolute;
+  top:23%;
+  left:5%;
+}
+
+.ram{
+  position:absolute;
+  top:31%;
+  left:5%;
+}
+
+.rom{
+  position:absolute;
+  top:39%;
+  left:5%;
+}
+
+.process{
+  position:absolute;
+  top:47%;
+  left:5%;
+}
+
+.NbCamAv{
+  position:absolute;
+  top:55%;
+  left:5%;
+}
+
+.ResoAv{
+  position:absolute;
+  top:63%;
+  left:5%;
+}
+
+.NbCamAr{
+  position:absolute;
+  top:71%;
+  left:5%;
+}
+
+.ResoAr{
+  position:absolute;
+  top:79%;
+  left:5%;
+}
+
+.ResoEc{
+  position:absolute;
+  top:87%;
+  left:5%;
+}
+
+.TRaf{
+  position:absolute;
+  top:15%;
+  left:25%;
+}
+
+.hdmi{
+  position:absolute;
+  top:23%;
+  left:25%;
+}
+
+.TEcra{
+  position:absolute;
+  top:23%;
+  left:25%;
+}
+
+.tact{
+  position:absolute;
+  top:31%;
+  left:25%;
+}
+
+.Wifi{
+  position:absolute;
+  top:39%;
+  left:25%;
+}
+
+.Bleut{
+  position:absolute;
+  top:47%;
+  left:25%;
+}
+
+.jack{
+  position:absolute;
+  top:55%;
+  left:25%;
+}
+
+.UsbType{
+  position:absolute;
+  top:63%;
+  left:25%;
+}
+.os{
+  position:absolute;
+  top:71%;
+  left:25%;
+}
+
+.garantie{
+  position:absolute;
+  top:79%;
+  left:25%;
+}
+
+.Prix{
+  position:absolute;
+  top:87%;
+  left:25%;
+}
+.quantite{
+  position:absolute;
+  top:15%;
+  left:45%;
+}
+.etat{
+  position:absolute;
+  top:23%;
+  left:45%;
+}
+.desc{
+  position:absolute;
+  top:15%;
+  left:65%;
+}
+
+.btn{
+  position:absolute;
+  top:77%;
+  left:70%;
+  height:30px;
+  background: #6b03fc;
+  color: white;
+}
+.btn:hover{
+  background: white;
+  color: black;
+}
+
+/*conecrnant les photos des produits*/
+.conteneur{
+  height:18px;
+  width:170px;
+  color:white;
+  font-weight: bold;
+  background: #6b03fc;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#t1{
+  position:absolute;
+  top:31%;
+  left:45%;
+}
+
+#t2{
+  position:absolute;
+  top:39%;
+  left:45%;
+}
+
+#t3{
+  position:absolute;
+  top:47%;
+  left:45%;
+}
+
+#t4{
+  position:absolute;
+  top:55%;
+  left:45%;
+}
+
+/*
+------------------------------------------------
+------------------------------------------------
+*/
+/* pour les labels des input file pour importer les photos*/
+label:hover{
+  color:black;
+  font-weight: bolder;
+}
+
+.pic{
+  width:0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+/*
+------------------------------------------------
+------------------------------------------------
+pour pc
+marque,modele,ram,rom,process ,resoAr sont les meme que pour telephone
+*/
+.carteGr1{
+  position:absolute;
+  top:55%;
+  left:5%;
+}
+
+.carteGr2{
+  position:absolute;
+  top:63%;
+  left:5%;
+}
+.ResoAv1{
+  position:absolute;
+  top:71%;
+  left:5%;
+}
+
+.tailleEc{
+  position:absolute;
+  top:87%;
+  left:5%;
+}
+
+.ResoEcPc{
+  position:absolute;
+  top:15%;
+  left:25%;
+}
+
+.TRafPc{
+  position:absolute;
+  top:23%;
+  left:25%;
+}
+
+.hdmiPc{
+  position:absolute;
+  top:31%;
+  left:25%;
+}
+
+.tactPc{
+  position:absolute;
+  top:39%;
+  left:25%;
+}
+
+.WifiPc{
+  position:absolute;
+  top:47%;
+  left:25%;
+}
+
+.BleutPc{
+  position:absolute;
+  top:55%;
+  left:25%;
+}
+
+.jackPc{
+  position:absolute;
+  top:63%;
+  left:25%;
+}
+
+.UsbTypePc{
+  position:absolute;
+  top:79%;
+  left:25%;
+}
+
+.NbUsbPc{
+  position:absolute;
+  top:71%;
+  left:25%;
+}
+
+.vgaPc{
+  position:absolute;
+  top:87%;
+  left:25%;
+}
+
+.ethPc{
+  position:absolute;
+  top:15%;
+  left:45%;
+}
+
+.cdPc{
+  position:absolute;
+  top:23%;
+  left:45%;
+}
+
+.osPc{
+  position:absolute;
+  top:31%;
+  left:45%;
+}
+
+.garantiePc{
+  position:absolute;
+  top:39%;
+  left:45%;
+}
+
+.PrixPc{
+  position:absolute;
+  top:47%;
+  left:45%;
+}
+
+.quantitePc{
+  position:absolute;
+  top:55%;
+  left:45%;
+}
+
+.etatPc{
+  position:absolute;
+  top:63%;
+  left:45%;
+}
+
+.descPc{
+  position:absolute;
+  top:23%;
+  left:65%;
+}
+
+#p1{
+  position:absolute;
+  top:71%;
+  left:45%;
+}
+
+#p2{
+  position:absolute;
+  top:79%;
+  left:45%;
+}
+
+#p3{
+  position:absolute;
+  top:87%;
+  left:45%;
+}
+
+#p4{
+  position:absolute;
+  top:15%;
+  left:65%;
+}
+
+.btn1{
+  position:absolute;
+  top:80%;
+  left:70%;
+  height:30px;
+  background: #6b03fc;
+  color: white;
+}
+
+
+.btn1:hover{
+  background: white;
+  color: black;
+}
+/*
+-------------------------------------------------------
+-------------------------------------------------------
+unite central
+de meme que pc marque,modele ... sont en commun avec telephone de plus cartegr1 et 2 sont les meme que pour pc
+*/
+
+.Wifi1{
+  position:absolute;
+  top:71%;
+  left:5%;
+}
+
+.Bleut1{
+  position:absolute;
+  top:79%;
+  left:5%;
+}
+
+.jack1{
+  position:absolute;
+  top:87%;
+  left:5%;
+}
+
+.hdmi1{
+  position:absolute;
+  top:15%;
+  left:25%;
+}
+
+.vga1{
+  position:absolute;
+  top:23%;
+  left:25%;
+}
+
+.eth1{
+  position:absolute;
+  top:31%;
+  left:25%;
+}
+
+.cd1{
+  position:absolute;
+  top:39%;
+  left:25%;
+}
+
+.NbUsb1{
+  position:absolute;
+  top:47%;
+  left:25%;
+}
+.UsbType2{
+  position:absolute;
+  top:55%;
+  left:25%;
+}
+
+.os2{
+  position:absolute;
+  top:63%;
+  left:25%;
+}
+
+.etat2{
+  position:absolute;
+  top:71%;
+  left:25%;
+}
+
+#u1{
+  position:absolute;
+  top:23%;
+  left:45%;
+}
+
+#u2{
+  position:absolute;
+  top:31%;
+  left:45%;
+}
+
+#u3{
+  position:absolute;
+  top:39%;
+  left:45%;
+}
+
+#u4{
+  position:absolute;
+  top:47%;
+  left:45%;
+}
+
+.desc2{
+  position:absolute;
+  top:15%;
+  left:65%;
+}
+
+.btn2{
+  position:absolute;
+  top:70%;
+  left:70%;
+  height:30px;
+  background: #6b03fc;
+  color: white;
+}
+
+.btn2:hover{
+  background: white;
+  color: black;
+}
+
+/*
+-------------------------------------------------------
+-------------------------------------------------------
+partie ecran
+*/
+
+
+.tailleEc2{
+  position:absolute;
+  top:31%;
+  left:5%;
+}
+
+.ResoEc2{
+  position:absolute;
+  top:39%;
+  left:5%;
+}
+
+.TRaf2{
+  position:absolute;
+  top:47%;
+  left:5%;
+}
+
+.tact2{
+  position:absolute;
+  top:55%;
+  left:5%;
+}
+
+.hdmi2{
+  position:absolute;
+  top:63%;
+  left:5%;
+}
+
+.rca{
+  position:absolute;
+  top:71%;
+  left:5%;
+}
+
+.vga2{
+  position:absolute;
+  top:79%;
+  left:5%;
+}
+
+.NbUsb3{
+  position:absolute;
+  top:87%;
+  left:5%;
+}
+
+.UsbType3{
+  position:absolute;
+  top:15%;
+  left:25%;
+}
+
+.garantie3{
+  position:absolute;
+  top:23%;
+  left:25%;
+}
+
+.Prix3{
+  position:absolute;
+  top:31%;
+  left:25%;
+}
+
+.etat3{
+  position:absolute;
+  top:39%;
+  left:25%;
+}
+
+.quantite3{
+  position:absolute;
+  top:47%;
+  left:25%;
+}
+
+.desc3{
+  position:absolute;
+  top:15%;
+  left:45%;
+}
+
+#e1{
+  position:absolute;
+  top:55%;
+  left:25%;
+}
+
+#e2{
+  position:absolute;
+  top:63%;
+  left:25%;
+}
+
+#e3{
+  position:absolute;
+  top:71%;
+  left:25%;
+}
+
+#e4{
+  position:absolute;
+  top:79%;
+  left:25%;
+}
+
+.btn3{
+  position:absolute;
+  top:80%;
+  left:50%;
+  height:30px;
+  background: #6b03fc;
+  color: white;
+}
+
+.btn3:hover{
+  background: white;
+  color: black;
+}
+
+
+/*
+-------------------------------------------------------
+-------------------------------------------------------
+partie accesoires
+*/
+
+.marque4{
+  position:absolute;
+  top:15%;
+  left:25%;
+}
+
+.modele4{
+  position:absolute;
+  top:23%;
+  left:25%;
+}
+
+.garantie4{
+  position:absolute;
+  top:31%;
+  left:25%;
+}
+
+.Prix4{
+  position:absolute;
+  top:39%;
+  left:25%;
+}
+
+.etat4{
+  position:absolute;
+  top:47%;
+  left:25%;
+}
+
+.quantite4{
+  position:absolute;
+  top:55%;
+  left:25%;
+}
+
+.desc4{
+  position:absolute;
+  top:23%;
+  left:45%;
+}
+
+#a1{
+  position:absolute;
+  top:63%;
+  left:25%;
+}
+
+#a2{
+  position:absolute;
+  top:71%;
+  left:25%;
+}
+
+#a3{
+  position:absolute;
+  top:79%;
+  left:25%;
+}
+
+#a4{
+  position:absolute;
+  top:15%;
+  left:45%;
+}
+
+.btn4{
+  position:absolute;
+  top:75%;
+  left:50%;
+  height:30px;
+  background: #6b03fc;
+  color: white;
+}
+
+.btn4:hover{
+  background: white;
+  color: black;
+}
+
+/*
+-------------------------------------------------------
+-------------------------------------------------------
+fin partie accesoires
+*/
+
+/*ce qui suit concenrne la reponse en cas de réussite ou d'échec d'insertion */
+.reponse{
+  height:200px;
+  width:300px;
+  position: absolute;
+  top:30%;
+  left:37%;
+  background: #6b03fc;
+  border-radius: 10px;
+  padding-left: 10px;
+  color:white;
+}
+
+.reponse img{
+  position: absolute;
+  left:36%;
+  top:25%;
+}
+
+.reponse p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reponse a{
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  top:85%;
+
+}
+
+p.erreur{
+  position: absolute;
+  left:38%;
+}
+
+a.erreur{
+  position: absolute;
+  top:85%;
+  left:38%;
+}

@@ -1,0 +1,453 @@
+.main{
+  height:700px;
+}
+
+.partie1{
+  height:550px;
+  width:400px;
+  border-right: 2px solid black;
+}
+
+input[type="submit"]{
+  width:350px;
+  height:50px;
+  font-size: 18px;
+  font-weight: bold;
+  background:#6b03fc;
+  color: white;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+  background:white;
+  color: black;
+}
+
+.btn1{
+  position: absolute;
+  top:20%;
+  left:2%;
+}
+
+.btn2{
+  position: absolute;
+  top:33%;
+  left:2%;
+}
+
+.btn3{
+  position: absolute;
+  top:46%;
+  left:2%;
+}
+
+.btn4{
+  position:absolute;
+  top:59%;
+  left:2%;
+}
+
+
+.partie2{
+  height:550px;
+  width:940px;
+  position: absolute;
+  top:10%;
+  left:30%;
+
+}
+
+/*concerne les formulaires du mail et du mot de passe*/
+
+.formT1{
+  height:250px;
+  width:300px;
+  background:#6b03fc;
+  border-radius: 10px;
+  position: absolute;
+  top:20%;
+  left:30%;
+
+}
+
+.formT1 p{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+input[type="text"]{
+  height:25px;
+  width:220px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.mail{
+  position: absolute;
+  top:40%;
+  left:13%;
+}
+
+input[type="submit"].btn5{
+  height:30px;
+  width:120px;
+  background: grey;
+  font-size: 15px;
+  position: absolute;
+  top:60%;
+  left:30%;
+}
+
+/*concerne les deux autres formulaires*/
+
+.formT2{
+  height:450px;
+  width:350px;
+  background:#6b03fc;
+  border-radius: 10px;
+  position: absolute;
+  top:10%;
+  left:30%;
+  color:white;
+}
+
+.formT2 p{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.Adrs{
+  position: absolute;
+  top:30%;
+  left:15%;
+}
+
+.Nums{
+  position: absolute;
+  top:40%;
+  left:15%;
+}
+
+.insta{
+  position: absolute;
+  top:50%;
+  left:15%;
+}
+
+.facebook{
+  position: absolute;
+  top:60%;
+  left:15%;
+}
+
+.twitter{
+  position: absolute;
+  top:70%;
+  left:15%;
+}
+
+input[type="submit"].btn6{
+  height:30px;
+  width:120px;
+  background: grey;
+  font-size: 15px;
+  position: absolute;
+  top:83%;
+  left:30%;
+}
+
+/*bouton concernant les appreils figurant dans l'acceuil*/
+#btn {
+  height:90px;
+  width:90px;
+  text-indent:  -999999999px;
+  background-image: url(../pics/add.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#btn:hover{
+  background:black;
+  background-image: url(../pics/add.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type="submit"].btn7{
+  position: absolute;
+  top:10%;
+  left:10%;
+}
+
+input[type="submit"].btn8{
+  position: absolute;
+  top:10%;
+  left:30%;
+}
+
+input[type="submit"].btn9{
+  position: absolute;
+  top:10%;
+  left:50%;
+}
+
+input[type="submit"].btn10{
+  position: absolute;
+  top:10%;
+  left:70%;
+}
+
+input[type="submit"].btn11{
+  position: absolute;
+  top:30%;
+  left:10%;
+}
+
+input[type="submit"].btn12{
+  position: absolute;
+  top:30%;
+  left:30%;
+}
+
+input[type="submit"].btn13{
+  position: absolute;
+  top:30%;
+  left:50%;
+}
+
+input[type="submit"].btn14{
+  position: absolute;
+  top:30%;
+  left:70%;
+}
+
+input[type="submit"].btn15{
+  position: absolute;
+  top:50%;
+  left:30%;
+}
+
+input[type="submit"].btn16{
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+
+/*concerne les produits s'affichant à l'acceuil*/
+
+.formT3{
+  height:350px;
+  width:280px;
+  background:#6b03fc;
+  border-radius: 10px;
+  position: absolute;
+  top:10%;
+  left:30%;
+}
+
+select{
+  width:230px;
+  height:30px;
+  border-radius: 10px;
+}
+
+.type{
+  position: absolute;
+  top:34%;
+  left:7%;
+}
+
+.marque{
+  position: absolute;
+  top:46%;
+  left:7%;
+}
+
+.modele{
+  position: absolute;
+  top:58%;
+  left:7%;
+}
+
+.etat{
+  position: absolute;
+  top:70%;
+  left:7%;
+}
+
+input[type="submit"].btn17{
+  height:30px;
+  width:120px;
+  background: grey;
+  font-size: 15px;
+  position: absolute;
+  top:85%;
+  left:28%;
+}
+
+.formT3 p{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+
+}
+
+
+/*ce qui suit concenrne la reponse en cas de réussite ou d'échec d'insertion */
+.reponse{
+  height:200px;
+  width:300px;
+  position: absolute;
+  top:30%;
+  left:37%;
+  background: #6b03fc;
+  border-radius: 10px;
+  padding-left: 7px;
+  color:white;
+  text-align: center;
+}
+
+.reponse img{
+  position: absolute;
+  left:36%;
+  top:25%;
+}
+
+.reponse p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reponse a{
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  top:85%;
+  left:40%;
+}
+
+p.erreur{
+  position: absolute;
+  left:38%;
+}
+
+a.erreur{
+  position: absolute;
+  top:85%;
+  left:38%;
+}
+
+
+/*cas mise à jour des informations du bas de page*/
+.Adrs1{
+  position: absolute;
+  top:30%;
+  left:15%;
+}
+
+.Adrstxt{
+  position: absolute;
+  top:30%;
+  left:23%;
+}
+
+.Nums1{
+  position: absolute;
+  top:37%;
+  left:15%;
+}
+
+.Numstxt{
+  position: absolute;
+  top:37%;
+  left:23%;
+}
+
+.insta1{
+  position: absolute;
+  top:44%;
+  left:15%;
+}
+
+.instatxt{
+  position: absolute;
+  top:44%;
+  left:23%;
+}
+
+.facebook1{
+  position: absolute;
+  top:51%;
+  left:15%;
+}
+
+.facetxt{
+  position: absolute;
+  top:51%;
+  left:23%;
+}
+
+.twitter1{
+  position: absolute;
+  top:58%;
+  left:15%;
+}
+
+.twittxt{
+  position: absolute;
+  top:58%;
+  left:23%;
+}
+
+.tous{
+  position: absolute;
+  top:65%;
+  left:15%;
+}
+
+.toustxt{
+  position: absolute;
+  top:65%;
+  left:23%;
+}
+
+/*concerne la partie de modif des infos du pied de page*/
+.formT4{
+  height:250px;
+  width:300px;
+  background:#6b03fc;
+  border-radius: 10px;
+  position: absolute;
+  top:25%;
+  left:30%;
+
+}
+
+.formT4 p{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.InfoM{
+  position: absolute;
+  top:50%;
+  left:13%;
+}
+
+
+input[type="submit"].btnM{
+  height:30px;
+  width:120px;
+  background: grey;
+  font-size: 15px;
+  position: absolute;
+  top:75%;
+  left:28%;
+}

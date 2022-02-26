@@ -1,0 +1,60 @@
+@media all and (max-device-width:480px){
+  html{
+    width:100vw;
+  }
+
+  header,footer,.main{
+    width:100vw;
+  }
+
+  .titre_page{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left:12%;
+  }
+
+  .part2{
+    width:50vw;
+    position: absolute;
+    top:95%;
+    left:3%;
+  }
+
+  .part4 p.titre{
+    font-size: 0px;
+  }
+
+  .part4{
+    position: absolute;
+    top:95%;
+
+  }
+
+}
+@media all and (max-device-width:480px){
+
+  .ChampRecherche{
+    width:100px;
+    position: absolute;
+    left:57%;
+  }
+  .BoutonRecherche{
+    position: absolute;
+    left:80%;
+  }
+
+  .Bienvenue{
+    width:60vw;
+
+  }
+
+  .Bienvenue p{
+    font-size: 27px;
+  }
+
+  .Nouveaute{
+    width:72vw;
+  }
+}

@@ -1,0 +1,115 @@
+
+.main{
+  height:1050px;
+}
+
+.PartieAffichage{
+  height:900px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.partieHaute{
+  width:1000px;
+  height:320px;
+  border:2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#defilement{
+  width:350px;
+  height:320px;
+  overflow: auto;
+  border-radius: 10px;
+  scroll-width:thin;
+}
+
+.imagesAppareil{
+  display: flex;
+  animation-duration: 25s;
+  animation-name: mesImages;
+  /*animation en boucle*/
+  animation-iteration-count: infinite;
+}
+
+
+.imagesAppareil img{
+  width:350px;
+  height:300px;
+}
+
+@keyframes  mesImages{
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(-350px);
+  }
+  50%{
+    transform: translateX(-700px);
+  }
+  75%{
+    transform: translateX(-1050px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+.infoPrincipal{
+  width:600px;
+  height:320px;
+  position: absolute;
+  top:14%;
+  left:30%;
+  padding: 5px;
+}
+
+td,th{
+  height:40px;
+  width:400px;
+  border-radius: 10px;
+}
+
+th{
+    width:100px;
+    background:lightgrey;
+    padding: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+td{
+  padding-left: 20px;
+  border-bottom-width: 2px  ;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  border-left: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#dispo{
+  color:green;
+}
+#Ndispo{
+  color:red;
+}
+.details{
+  width:1000px;
+  height:500px;
+  position:relative;
+  top:40px;
+  border:2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+div.details table tr th{
+  width:250px;
+}
+
+div.details table tr td{
+  width:650px;
+}

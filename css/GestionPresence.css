@@ -1,0 +1,130 @@
+.main{
+  height:650px;
+}
+
+.operation{
+  height:500px;
+}
+
+input,textarea{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+input{
+  height:20px;
+  width:150px;
+}
+
+textarea{
+  height:60px;
+  width:150px;
+  border-color: black;
+}
+
+.conge,.retard,.absence{
+  width:300px;
+  height:300px;
+  position: absolute;
+  top:28%;
+  left:35%;
+  background: #6b03fc;
+  border-radius: 10px;
+}
+
+.titre1,.titre2{
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+    position:absolute;
+    left:37%;
+    top:-5%;
+}
+
+.titre2{
+
+    position:absolute;
+    left:33%;
+    top:0%;
+}
+
+.dated,.dater{
+  position:absolute;
+  top:18%;
+  left:25%;
+}
+
+.datef,.dureer{
+  position:absolute;
+  top:30%;
+  left:25%;
+}
+
+.commentaire1{
+  position:absolute;
+  top:42%;
+  left:25%;
+}
+
+.btn1{
+  width:100px;
+  height:30px;
+  position:absolute;
+  top:75%;
+  left:34%;
+  color:white;
+  background:grey;
+}
+
+.btn1:hover{
+  color:black;
+  background:white;
+}
+
+.datea{
+  position:absolute;
+  top:28%;
+  left:25%;
+}
+
+.reponse{
+  height:200px;
+  width:300px;
+  position: absolute;
+  top:30%;
+  left:37%;
+  background: #6b03fc;
+  border-radius: 10px;
+  padding-left: 10px;
+  color:white;
+}
+
+.reponse img{
+  position: absolute;
+  left:36%;
+  top:25%;
+}
+
+.reponse p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reponse a{
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  top:85%;
+
+}
+
+p.erreur{
+  position: absolute;
+  left:38%;
+}
+
+a.erreur{
+  position: absolute;
+  top:85%;
+  left:38%;
+}

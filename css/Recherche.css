@@ -1,0 +1,126 @@
+.main{
+  height:650px;
+}
+
+.PartieRecherche{
+  height:500px;
+  width:250px;
+  border-right-style: groove;
+  border-right-width: 5px;
+  padding-bottom: 0px;
+  border-bottom-width: 0px;
+
+}
+
+select,input{
+  height:25px;
+  width:170px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+select{
+  width:178px;
+}
+
+.produit{
+  position: absolute;
+  top: 20%;
+  left:2%;
+}
+
+.marque{
+  position: absolute;
+  top: 30%;
+  left:2%;
+}
+
+.modele{
+  position: absolute;
+  top: 40%;
+  left:2%;
+}
+
+.prix{
+  position: absolute;
+  top: 50%;
+  left:2%;
+  color: #6b03fc;
+
+}
+
+.prix:before{
+  position: absolute;
+  top:1.5em;
+  left: 0em;
+  content: attr(min);
+}
+
+.prix:after{
+  position: absolute;
+  top:1.5em;
+  right: 0em;
+  content: attr(max);
+}
+
+.btn1{
+  width:100px;
+  position: absolute;
+  top: 60%;
+  left:5%;
+  background: #6b03fc;
+  color:white;
+}
+
+.btn1:hover{
+  background: white;
+  color: black;
+}
+
+.resultat{
+  height:520px;
+  width: 1012px;
+  position: absolute;
+  left:25%;
+  top:10%;
+  overflow-y: scroll;
+}
+
+td{
+  width:200px;
+  height:200px;
+
+}
+
+ td img{
+  height:180px;
+  width:190px;
+}
+
+.lien{
+  background:white;
+  border: 0;
+}
+
+.lien:hover{
+  font-weight: bolder;
+}
+
+
+.reponse{
+  height:200px;
+  width:300px;
+  position: absolute;
+  top:30%;
+  left:30%;
+  background: #6b03fc;
+  border-radius: 10px;
+  padding: 10px;
+  color:white;
+
+
+}
+
+.reponse p{
+  text-align:center;
+}

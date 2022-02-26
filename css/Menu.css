@@ -1,0 +1,431 @@
+.partie1{
+  width:400px;
+  height:500px;
+  position:relative;
+  left:0%;
+  border-right-width: 5px;
+  border-right-style: groove;
+  z-index: 0;
+}
+
+.partie2{
+  width:800px;
+  height:500px;
+  position:  absolute;
+  top:12%;
+  left:35%;
+}
+
+
+.AjoutPr{
+  width:400px;
+  height:500px;
+  position: absolute;
+  top:-3%;
+  left:0%;
+  border-right-width: 5px;
+  border-right-style: groove;
+
+}
+
+.titre1{
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  top: 20%;
+  left:9%;
+}
+
+.type1{
+  height:30px;
+  width:200px;
+  border-radius: 10px;
+  position: absolute;
+  top:40%;
+  left:15%;
+}
+
+.btn4{
+  height:30px;
+  width:100px;
+  border-radius: 10px;
+  position: absolute;
+  top:55%;
+  left:28%;
+  background: #6b03fc;
+  color: white;
+
+}
+
+.btn4:hover{
+  background: white;
+  color: black;
+}
+
+
+.SuppPr{
+  width:440px;
+  height:500px;
+  position: absolute;
+  top:0%;
+  left:52%;
+}
+
+.titre2{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 10%;
+  left:16%;
+}
+
+.type2{
+  height:30px;
+  width:200px;
+  border-radius: 10px;
+  position: absolute;
+  top:29%;
+  left:30%;
+}
+
+.marque{
+  height:30px;
+  width:190px;
+  border-radius: 10px;
+  position: absolute;
+  top:39%;
+  left:30%;
+  padding-left: 5px;
+}
+
+.modele{
+  height:30px;
+  width:190px;
+  border-radius: 10px;
+  position: absolute;
+  top:50%;
+  left:30%;
+  padding-left: 5px;
+}
+
+.etat{
+  height:30px;
+  width:200px;
+  border-radius: 10px;
+  position: absolute;
+  top:61%;
+  left:30%;
+}
+
+.btn5{
+  height:30px;
+  width:100px;
+  border-radius: 10px;
+  position: absolute;
+  top:75%;
+  left:40%;
+  background: #6b03fc;
+  color: white;
+
+}
+
+.btn5:hover{
+  background: white;
+  color: black;
+}
+
+.Stock{
+  width:800px;
+  height:500px;
+  position: absolute;
+  top:2%;
+  left:10%;
+
+}
+
+.titre3{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 5%;
+  left:25%;
+}
+
+.type3{
+  height:30px;
+  width:200px;
+  border-radius: 10px;
+  position: absolute;
+  top:23%;
+  left:28%;
+}
+
+.marque1{
+  height:30px;
+  width:190px;
+  border-radius: 10px;
+  position: absolute;
+  top:33%;
+  left:28%;
+  padding-left: 5px;
+}
+
+.modele1{
+  height:30px;
+  width:190px;
+  border-radius: 10px;
+  position: absolute;
+  top:43%;
+  left:28%;
+  padding-left: 5px;
+}
+
+.nb{
+  height:30px;
+  width:190px;
+  border-radius: 10px;
+  position: absolute;
+  top:53%;
+  left:28%;
+  padding-left: 5px;
+}
+
+.etat1{
+  height:30px;
+  width:200px;
+  border-radius: 10px;
+  position: absolute;
+  top:63%;
+  left:28%;
+}
+
+.btn6{
+  height:30px;
+  width:100px;
+  border-radius: 10px;
+  position: absolute;
+  top:75%;
+  left:34%;
+  background: #6b03fc;
+  color: white;
+
+}
+
+.btn6:hover{
+  background: white;
+  color: black;
+}
+
+header{
+  z-index: 1;
+}
+.btn1{
+  width:350px;
+  height:60px;
+  background: #6b03fc;
+  position: absolute;
+  top:5%;
+  left:6%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  color:white;
+}
+
+
+.btn2{
+  width:350px;
+  height:60px;
+  background: #6b03fc;
+  position: absolute;
+  top:20%;
+  left:6%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  color:white;
+}
+
+.btn3{
+  width:350px;
+  height:60px;
+  background: #6b03fc;
+  position: absolute;
+  top:35%;
+  left:6%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  color:white;
+}
+
+.btnV{
+  width:350px;
+  height:60px;
+  background: #6b03fc;
+  position: absolute;
+  top:50%;
+  left:6%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  color:white;
+}
+
+.btnA{
+  width:350px;
+  height:60px;
+  background: #6b03fc;
+  position: absolute;
+  top:65%;
+  left:6%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  color:white;
+}
+
+.btn1:hover{
+  background-color: white;
+  color:black;
+}
+
+.btn2:hover{
+  background-color: white;
+  color:black;
+}
+
+.btn3:hover{
+  background-color: white;
+  color:black;
+}
+
+.btnV:hover{
+  background-color: white;
+  color:black;
+}
+
+.btnA:hover{
+  background-color: white;
+  color:black;
+}
+
+.GestEmpl{
+  width:380px;
+  height:500px;
+  position: absolute;
+  top:-3%;
+  left:0%;
+  border-right-width: 2px;
+  border-right-style: dotted;
+
+}
+
+.titre4{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 20%;
+  left:0%;
+}
+
+.btn8{
+  height:40px;
+  width:200px;
+  border-radius: 10px;
+  position: absolute;
+  top:45%;
+  left:16%;
+  background: #6b03fc;
+  color: white;
+  font-size: 22px;
+}
+
+.btn8:hover{
+  background: white;
+  color: black;
+}
+
+
+.HistEmp{
+  width:440px;
+  height:500px;
+  position: absolute;
+  top:1%;
+  left:52%;
+
+
+}
+
+.titre5{
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 10%;
+  left:14%;
+}
+
+
+
+.nom{
+  height:30px;
+  width:190px;
+  border-radius: 10px;
+  position: absolute;
+  top:39%;
+  left:25%;
+  padding-left: 5px;
+}
+
+.prenom{
+  height:30px;
+  width:190px;
+  border-radius: 10px;
+  position: absolute;
+  top:50%;
+  left:25%;
+  padding-left: 5px;
+}
+
+.btn7{
+  height:30px;
+  width:100px;
+  border-radius: 10px;
+  position: absolute;
+  top:65%;
+  left:35%;
+  background: #6b03fc;
+  color: white;
+
+}
+
+.btn7:hover{
+  background: white;
+  color: black;
+}
+
+
+/* pour les commandes et rendez-vous*/
+
+table{
+  width:800px;
+}
+
+th{
+  height:40px;
+  background-color: #6b03fc;
+  color: white;
+}
+
+td{
+  height:30px;
+  border: 1px solid black;
+  padding-left: 3px;
+}
+
+td input[type='submit']{
+  color: white;
+  background:#6b03fc;
+  width:70px;
+  border-radius: 5px;
+}

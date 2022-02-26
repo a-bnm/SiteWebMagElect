@@ -1,0 +1,31 @@
+.main{
+  height:750px;
+}
+
+.pagep{
+  height:600px;
+}
+
+.adr{
+  height:600px;
+  width:600px;
+  position: absolute;
+  left:3%;
+}
+
+.adr ol{
+  position:relative;
+  left:10%;
+}
+.num{
+  height:600px;
+  width:600px;
+  position: absolute;
+  top:10%;
+  left:50%;
+}
+
+.num ol{
+  position:relative;
+  left:10%;
+}

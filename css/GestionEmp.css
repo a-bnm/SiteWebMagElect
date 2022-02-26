@@ -1,0 +1,213 @@
+.main{
+  height:650px;
+}
+
+.options{
+  height:500px;
+  width:100%;
+}
+
+.titre1{
+  position: absolute;
+  top:10%;
+  left:10%;
+  font-size: 27px;
+
+}
+
+.btn1{
+  position: absolute;
+  top:25%;
+  left:18%;
+  width:90px;
+  height:25px;
+  border-radius: 10px;
+  background: #6b03fc;
+  color:white;
+}
+
+.btn1:hover{
+  background: white;
+  color:black;
+}
+
+.titre2{
+  position: absolute;
+  top:30%;
+  left:12%;
+  font-size: 27px;
+
+}
+
+.btn2{
+  position:absolute;
+  top:51%;
+  left:18%;
+  width:90px;
+  height:25px;
+  border-radius: 10px;
+  background: #6b03fc;
+  color:white;
+}
+
+.btn2:hover{
+  background: white;
+  color:black;
+}
+
+.choix1{
+  position: absolute;
+  top:45%;
+  left:15%;
+  width:200px;
+  height:25px;
+  border-radius: 10px;
+}
+
+
+.titre3{
+  position: absolute;
+  top:59%;
+  left:5%;
+  font-size: 27px;
+}
+
+.btn3{
+  position: absolute;
+  top:79%;
+  left:18%;
+  width:90px;
+  height:25px;
+  border-radius: 10px;
+  background: #6b03fc;
+  color:white;
+}
+
+.btn3:hover{
+  background: white;
+  color:black;
+}
+
+.choix2{
+  position: absolute;
+  top:73%;
+  left:15%;
+  width:200px;
+  height:25px;
+  border-radius: 10px;
+}
+
+
+.titre4{
+  position:  absolute;
+  top:10%;
+  left:55%;
+  font-size: 27px;
+}
+
+.btn4{
+  position: absolute;
+  top:39%;
+  left:68%;
+  width:90px;
+  height:25px;
+  border-radius: 10px;
+  background: #6b03fc;
+  color:white;
+}
+
+.btn4:hover{
+  background: white;
+  color:black;
+}
+
+.choix3{
+  position:  absolute;
+  top:25%;
+  left:63%;
+  width:200px;
+  height:25px;
+  border-radius: 10px;
+}
+
+.choix4{
+  position:  absolute;
+  top:32%;
+  left:63%;
+  width:200px;
+  height:25px;
+  border-radius: 10px;
+}
+
+.titre5{
+  position: absolute;
+  top:52%;
+  left:55%;
+  font-size: 27px;
+}
+
+.btn5{
+  position: absolute;
+  top:83%;
+  left:68%;
+  width:90px;
+  height:25px;
+  border-radius: 10px;
+  background: #6b03fc;
+  color:white;
+}
+
+.btn5:hover{
+  background: white;
+  color:black;
+}
+
+.choix5{
+  position: absolute;
+  top:67%;
+  left:63%;
+  width:200px;
+  height:25px;
+  border-radius: 10px;
+}
+.choix6{
+  position: absolute;
+  top:74%;
+  left:63%;
+  width:200px;
+  height:25px;
+  border-radius: 10px;
+}
+
+
+.reponse{
+  height:200px;
+  width:300px;
+  position: absolute;
+  top:30%;
+  left:37%;
+  background: #6b03fc;
+  border-radius: 10px;
+  padding-left: 10px;
+  color:white;
+}
+
+.reponse img{
+  position: absolute;
+  left:36%;
+  top:25%;
+}
+
+.reponse p{
+  font-size: 20px;
+  font-weight: bold;
+  left:38%;
+}
+
+.reponse a{
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  top:85%;
+  left:38%;
+}

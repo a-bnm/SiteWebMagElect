@@ -1,0 +1,282 @@
+*{
+  padding:0px;
+  font-family: sans-serif;
+}
+
+body,html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+}
+
+header{
+  position: static;
+  width:100%;
+  height:60px;
+  background:#6b03fc;
+}
+
+.main{
+
+  width:100vw;
+}
+
+footer {
+  position: static;
+  color:white;
+  width:100%;
+  height:150px;
+  background: #6b03fc;
+}
+
+ul li{
+  float :left;
+  width :20%;
+  text-align:center;
+}
+
+.items1{
+  position:absolute;
+  top:50%;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.items2{
+  position:absolute;
+  top:100%;
+  right:200%;
+  width:100px;
+}
+
+ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.interieur {
+  position:absolute;
+  width:200px;
+  height:200px;
+  display :none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color:white;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+ul:hover li .interieur{
+   list-style-type: none;
+   display:block;
+}
+
+.interieur li{
+  float: left;
+  width:100%;
+  text-align:left;
+  margin-left: 3px;
+}
+
+.interieur li.one{
+  margin-top: 15px;
+}
+
+.menu{
+  position:absolute;
+  top:0%;
+  left:2%;
+  width: 35px;
+  height:34px;
+  background-image: url(../pics/menu.png);
+  background-size: cover;
+  list-style-type: none;
+}
+
+.titre_page{
+  position:relative;
+  top: 25%;
+  left:5%;
+}
+
+
+.compte{
+  margin-top: 10px;
+  list-style-type: none;
+  position: relative;
+  bottom:50%;
+  left:95%;
+  width:35px;
+  height:35px;
+  background-image: url(../pics/compte.png);
+  background-size: cover;
+}
+
+.CptIcon{
+  margin-top: 5px;
+  width:100px;
+  height:50px;
+  position: absolute;
+  left:20%;
+}
+.image1 img{
+  width:40px;
+  height: 40px;
+  position: absolute;
+  right:-20%;
+}
+
+.image1{
+  width:100px;
+  position: absolute;
+  top:5%;
+}
+
+.nompr{
+  position: absolute;
+  top:35%;
+  width:100px;
+}
+.params{
+  position: absolute;
+  top:55%;
+  width:200px;
+}
+
+.dec{
+  position: absolute;
+  top:75%;
+  width:100px;
+}
+
+.part1{
+  position: relative;
+  top: 5%;
+  padding-left: 10px;
+}
+
+.part2{
+  position: relative;
+  bottom:20%;
+  left:25%;
+}
+
+.part3{
+  position: relative;
+  bottom: 47%;
+  left:50%;
+}
+
+.part4{
+  position: relative;
+  bottom: 74%;
+  left:75%;
+}
+
+.titre{
+  position: relative;
+  top: 5%;
+  width:250px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.info{
+  position: absolute;
+  top:-60%;
+  width:330px;
+  height:70px;
+  margin-top: 50px;
+  font-size: 15px;
+
+}
+.element1{
+  position: absolute;
+  width:100%;
+}
+.element2{
+  position: absolute;
+  width:100%;
+  top:30%;
+}
+.element3{
+  position: absolute;
+  width:100%;
+  top:60%;
+}
+
+.element4{
+  position: absolute;
+  width:100%;
+  top:90%;
+}
+
+.txt {
+  position :absolute;
+  left:10%;
+}
+.mini_icon{
+  width:10px;
+  height:10px ;
+  position: absolute;
+}
+
+.mini_iconRS1{
+  position: absolute;
+  top:0;
+  left:10%;
+}
+
+.mini_iconRS2{
+  position: absolute;
+  top:40%;
+  left:10%;
+}
+.mini_iconRS3{
+  position: absolute;
+  top:80%;
+  left:10%;
+}
+
+.ligne1{
+  position: absolute;
+  top:100%;
+}
+
+header a {
+  text-decoration: none;
+  color:black;
+}
+footer a{
+  text-decoration: none;
+  color:white;
+}
+
+.a1{
+  position: absolute;
+  top:5%;
+}
+
+.a2{
+  position: absolute;
+  top:23%;
+}
+
+.a3{
+  position: absolute;
+  top:41%;
+}
+
+.a4{
+  position: absolute;
+  top:59%;
+}
+
+.a5{
+  position: absolute;
+  top:78%;
+}
